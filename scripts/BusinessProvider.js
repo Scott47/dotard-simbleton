@@ -121,6 +121,10 @@ export const useAgentNames = () => businesses.map(businessObject => {
     return businessObject
 })
 
+export const findBusinessByName = (priceCriteria) => {
+    return businesses.find(business => business === priceCriteria)
+}
+
 
 
 
