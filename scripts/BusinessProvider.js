@@ -112,6 +112,15 @@ const businesses = [
     }
   ];
 
-  export const useBusinesses = () => {
+
+export const useBusinesses = () => {
     return businesses.slice()
 }
+
+export const useAgentNames = () => businesses.map(businessObject => {
+    return businessObject
+})
+
+
+
+

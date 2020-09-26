@@ -9,6 +9,11 @@
             <p class="address-format">${businessObject.addressStateCode}, ${businessObject.addressZipCode}</p>
                 <hr>
             </div>
-        </section>
+
     `
 }
+
+{/* <article class="businessList--newYork">
+    <!-- New York businesses go here --->
+</article>
+        </section> */}
